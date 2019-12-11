@@ -3,6 +3,7 @@
 
 # Log file
 *.log
+*.json
 
 # BlueJ files
 *.ctxt
@@ -11,7 +12,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+# *.jar #
 *.war
 *.nar
 *.ear
@@ -21,3 +22,19 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IntelliJ IDEA Project files
+.idea
+*.iml
+*.ipr
+*.iws
+out
+
+# Eclipse Project files
+.classpath
+.project
+.DS_Store
+.settings
+/bin/
+
+*.class
